@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diepast</title>
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="https://kit.fontawesome.com/cd77ad6c63.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+<!--services-->
+<section id="services">
+    <!--navigation-->
+    <nav>
+    <!--logo-->
+    <a href="index.html" class="logo">diepast</a>
+    <!--bar-icon-->
+    <div class="toggle"></div>
+    <!--menu-->
+    <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html" class="active">Servicios</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="acerca.html">Acerca</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <!--language-->
+    <a href="#" class="lang">Es</a>
+    </nav>
+    <!--services-heading-->
+    <div class="s-heading">
+        <h1>Servicios</h1>
+        <p>Presentamos algunos de los siguientes servicios</p>
+    </div>
+    <!--services-box-container-->
+    <div class="s-b-container">
+    <!--box-1-->
+    <div class="s-box">
+    <!--box-1-img-->
+    <div class="s-b-img">
+    <!--type-->
+    <div class="s-type">Front-End</div>
+    <!--img-->
+    <img src="images/s1.png">
+    </div>
+    <!--services-box-text-->
+    <div class="s-b-text">
+        <a href="#">
+            Front-end consiste en la conversión de datos en una interfaz gráfica para que el usuario pueda ver e interactuar usando HTML, CSS y JavaScript.
+        </a>
+    </div>
+    </div>
+    <!--box-2-->
+    <div class="s-box">
+        <!--box-1-img-->
+        <div class="s-b-img">
+        <!--type-->
+        <div class="s-type">Back-End</div>
+        <!--img-->
+        <img src="images/s2.png">
+        </div>
+        <!--services-box-text-->
+        <div class="s-b-text">
+            <a href="#">
+                Back End refiere a la parte del programa que se ejecuta en un servidor y no en el navegador o dispositivo del cliente, se lo denomina: lado del servidor</a>
+        </div>
+        </div>
+
+        <!--box-3-->
+    <div class="s-box">
+        <!--box-1-img-->
+        <div class="s-b-img">
+        <!--type-->
+        <div class="s-type">SEO</div>
+        <!--img-->
+        <img src="images/s3.png">
+        </div>
+        <!--services-box-text-->
+        <div class="s-b-text">
+            <a href="#">
+               La optimización SEO, es un conjunto de acciones para mejorar la ubicación de un sitio en la lista de resultados de los buscadores de internet.​</a>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!--Jquery-->
+<script type="text/javascript" src="js/Jquerry.js"></script>
+<!-- Para cambiar barra  -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav ul').toggleClass('active-menu')
+        })
+    })
+</script>
+</body>
+</html> 

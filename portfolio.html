@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>diepast</title>
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="https://kit.fontawesome.com/cd77ad6c63.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+<!--portfolio-->
+    <section id="portfolio">
+    <!--navigation-->
+    <nav>
+    <!--logo-->
+    <a href="index.html" class="logo">diepast</a>
+    <!--bar-icon-->
+    <div class="toggle"></div>
+    <!--menu-->
+    <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="acerca.html">Acerca</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <!--language-->
+    <a href="#" class="lang">Es</a>
+    </nav>
+    <!--heading-->
+    <h1 class="p-heading">Portfolio</h1>
+    <!--Portfolio-box-container-->
+    <div class="p-b-container">
+    <!--box-1-->
+    <div class="p-box">
+        <!--text-->
+        <div class="text-overlay">
+        <h1>Escribir</h1>
+        <p>Clientes</p>
+        </div>
+        <!--img-->
+        <img src="images/w1.jpg" alt="portfolio">
+        </div>
+    <!--box-2-->
+    <div class="p-box">
+        <!--text-->
+        <div class="text-overlay">
+        <h1>Ideas</h1>
+        <p>Clientes</p>
+        </div>
+        <!--img-->
+        <img src="images/w2.jpg" alt="portfolio">
+        </div>
+    <!--box-3-->
+    <div class="p-box">
+        <!--text-->
+        <div class="text-overlay">
+        <h1>Música</h1>
+        <p>Clientes</p>
+        </div>
+        <!--img-->
+        <img src="images/w3.jpg" alt="portfolio">
+        </div>
+    <!--box-4-->
+    <div class="p-box">
+        <!--text-->
+        <div class="text-overlay">
+        <h1>Tiempo</h1>
+        <p>Clientes</p>
+        </div>
+        <!--img-->
+        <img src="images/w4.jpg" alt="portfolio">
+        </div>
+    <!--box-5-->
+    <div class="p-box">
+        <!--text-->
+        <div class="text-overlay">
+        <h1>Creatividad</h1>
+        <p>Clientes</p>
+        </div>
+        <!--img-->
+        <img src="images/w5.jpg" alt="portfolio">
+        </div>
+    <!--box-6-->
+    <div class="p-box">
+        <!--text-->
+        <div class="text-overlay">
+        <h1>Leer</h1>
+        <p>Clientes</p>
+        </div>
+        <!--img-->
+        <img src="images/w6.jpg" alt="portfolio">
+        </div>
+</div>
+</section>
+<!--Jquery-->
+<script type="text/javascript" src="js/Jquerry.js"></script>
+<!-- Para cambiar barra  -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav ul').toggleClass('active-menu')
+        })
+    })
+</script>  
+</body>
+
+</html> 
