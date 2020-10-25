@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>diepast</title>
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="https://kit.fontawesome.com/cd77ad6c63.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!--main-->
+    <section id="main">
+    <!--navigation-->
+    <nav>
+    <!--logo-->
+    <a href="index.html" class="logo">diepast</a>
+    <!--bar-icon-->
+    <div class="toggle"></div>
+    <!--menu-->
+    <ul class="menu">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="acerca.html">Acerca</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <!--language-->
+    <a href="#" class="lang">Es</a>
+    </nav>
+    <!--name-->
+    <div class="name">
+        <!--hello-->
+        <p>Presentación</p>
+        <!--name-->
+        <h1>Bienvenidos,<br> soy <font color="#17d1ac">Diego Pastuch</font></h1>
+        <p class="details">Actualmete soy estudiante del programa Codo a Codo: Python Front-End del Gobierno de la Ciudad de Buenos Aires.<br> Estoy cursando con la Profesora Yael Pinco.<br> Te invito a visitar el sitio para ver los servicios de diseño web.</p> 
+        <a href="servicios.html" class="cv-btn">Servicios</a>
+    </div>
+    <!--social-->
+    <div class="social">
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com"><i class="fab fa-github"></i></a>
+</div>
+    <div class="arrow"></div>
+</section>
+<!--Jquery-->
+<script type="text/javascript" src="js/Jquerry.js"></script>
+<!-- Para cambiar barra  -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav ul').toggleClass('active-menu')
+        })
+    })
+</script>
+</body>
+</html> 
